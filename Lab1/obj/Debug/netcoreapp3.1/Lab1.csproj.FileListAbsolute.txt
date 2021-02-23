@@ -1,0 +1,13 @@
+/home/antonpodkur/Documents/MOPE/Lab1/bin/Debug/netcoreapp3.1/Lab1
+/home/antonpodkur/Documents/MOPE/Lab1/bin/Debug/netcoreapp3.1/Lab1.deps.json
+/home/antonpodkur/Documents/MOPE/Lab1/bin/Debug/netcoreapp3.1/Lab1.runtimeconfig.json
+/home/antonpodkur/Documents/MOPE/Lab1/bin/Debug/netcoreapp3.1/Lab1.runtimeconfig.dev.json
+/home/antonpodkur/Documents/MOPE/Lab1/bin/Debug/netcoreapp3.1/Lab1.dll
+/home/antonpodkur/Documents/MOPE/Lab1/bin/Debug/netcoreapp3.1/Lab1.pdb
+/home/antonpodkur/Documents/MOPE/Lab1/obj/Debug/netcoreapp3.1/Lab1.csprojAssemblyReference.cache
+/home/antonpodkur/Documents/MOPE/Lab1/obj/Debug/netcoreapp3.1/Lab1.AssemblyInfoInputs.cache
+/home/antonpodkur/Documents/MOPE/Lab1/obj/Debug/netcoreapp3.1/Lab1.AssemblyInfo.cs
+/home/antonpodkur/Documents/MOPE/Lab1/obj/Debug/netcoreapp3.1/Lab1.dll
+/home/antonpodkur/Documents/MOPE/Lab1/obj/Debug/netcoreapp3.1/Lab1.pdb
+/home/antonpodkur/Documents/MOPE/Lab1/bin/Debug/netcoreapp3.1/ConsoleTables.dll
+/home/antonpodkur/Documents/MOPE/Lab1/obj/Debug/netcoreapp3.1/Lab1.csproj.CopyComplete
