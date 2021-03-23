@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab2\\Lab2.csproj": {}
+    "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\ResearchMethodslabs\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab2\\Lab2.csproj": {
+    "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\ResearchMethodslabs\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab2\\Lab2.csproj",
+        "projectUniqueName": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\ResearchMethodslabs\\Lab2\\Lab2.csproj",
         "projectName": "Lab2",
-        "projectPath": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab2\\Lab2.csproj",
+        "projectPath": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\ResearchMethodslabs\\Lab2\\Lab2.csproj",
         "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab2\\obj\\",
+        "outputPath": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\ResearchMethodslabs\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anton\\AppData\\Roaming\\NuGet\\NuGet.Config"

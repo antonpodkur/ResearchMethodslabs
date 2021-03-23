@@ -44,8 +44,8 @@ namespace Lab2
             this.numberOfY = numberOfY;
             randomY();
             romanovskiy();
-            normalize();
-            naturalize();
+            // normalize();
+            // naturalize();
         }
 
         private void randomY()
@@ -140,10 +140,13 @@ namespace Lab2
             if (Ruv1 < R_critical && Ruv2 < R_critical && Ruv3 < R_critical)
             {
                 WriteLine("Ruv < Rkp, dispersion is homogeneous");
+                normalize();
+                naturalize();
             }
             else
             {
                 WriteLine("Ruv > Rkp, dispersion is not homogeneous");
+                return;
             }
             WriteLine();
         }

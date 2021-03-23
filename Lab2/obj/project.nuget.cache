@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V6xRLY9CREguXnwx6F9kpkwzin+zuq694hPTsTj6JVKh2Btup/qleED4AUljMNzMDd8jWgnpgtHuerGUH/4hoQ==",
+  "dgSpecHash": "Y7b9lb09dIFEc7WApfl6DkZTmGOFrtvvFHw/bqINIM+K82e7PVgobCIJlTx6o4qyRGvyy8WGSchwvV7Wfjnf4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab2\\Lab2.csproj",
+  "projectFilePath": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\ResearchMethodslabs\\Lab2\\Lab2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anton\\.nuget\\packages\\consoletables\\2.4.2\\consoletables.2.4.2.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
