@@ -173,7 +173,6 @@ namespace Lab3
         
             Console.WriteLine();
 
-
             double[] Sigma = new double[4];
             double[] Sigma_Round = Sigma;
             for (int i = 0; i < 4; i++)
@@ -184,11 +183,21 @@ namespace Lab3
                 Sigma_Round[i] = Math.Round(Sigma[i] * 100) / 100.0;
             }
 
+            DateTime start;
+            DateTime medium1;
+            DateTime medium2;
+            DateTime end;
+            DateTime result;
+
+            start = DateTime.Now();
+
             table = new ConsoleTable("","Average Ys","","");
             table.AddRow("Y1","Y2","Y3","Y4");
             table.AddRow(averageY[0],averageY[1],averageY[2],averageY[3]);
             table.Configure(o => o.NumberAlignment = Alignment.Right).Write(Format.Alternative);
             Console.WriteLine();
+
+            medium = DateTime.Now();
 
             table = new ConsoleTable("","Dispersions","","");
             table.AddRow("D(Y1)","D(Y2)","D(Y3)","D(Y4)");
@@ -208,6 +217,9 @@ namespace Lab3
            
             double Sb = (Sigma[0] + Sigma[1] + Sigma[2] + Sigma[3]) / 4.0;
             double Sbs = Math.Sqrt(Sb / 20.0);
+
+            medium2 = DateTime.Now();
+
             double beta0 = (averageY[0] + averageY[1] + averageY[2] + averageY[3]) / 4.0;
             double beta1 = (averageY[0] * matrix[0, 0] + averageY[1] * matrix[1, 0] + averageY[2] * matrix[2, 0] + averageY[3] * matrix[3, 0]) / 4.0;
             double beta2 = (averageY[0] * matrix[0, 1] + averageY[1] * matrix[1, 1] + averageY[2] * matrix[2, 1] + averageY[3] * matrix[3, 1]) / 4.0;
@@ -223,6 +235,9 @@ namespace Lab3
             t[3] = Math.Abs(beta3) / Sbs;
             t_Round[3] = Math.Round(t[3] * 100000) / 100000.0;
             Console.WriteLine();
+
+            end = DateTime.Now();
+            result = (medium1 - start) + (end - medium2);
             
             table = new ConsoleTable("","Student's test","","");
             table.AddRow("t1","t2","t3","t4");
@@ -289,6 +304,8 @@ namespace Lab3
             else
                 Console.WriteLine("\nThe regression equation is inadequate at a significance level of 5%");
             Console.WriteLine();
+
+            Console.WriteLine("To find the coef we spent "+ result.ToString());
         }
 
         public double determinantOf3(
