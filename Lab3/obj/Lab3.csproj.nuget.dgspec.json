@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab3\\Lab3.csproj": {}
+    "/home/anton/Documents/Tpe/ResearchMethodslabs/Lab3/Lab3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab3\\Lab3.csproj": {
+    "/home/anton/Documents/Tpe/ResearchMethodslabs/Lab3/Lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab3\\Lab3.csproj",
+        "projectUniqueName": "/home/anton/Documents/Tpe/ResearchMethodslabs/Lab3/Lab3.csproj",
         "projectName": "Lab3",
-        "projectPath": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab3\\Lab3.csproj",
-        "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab3\\obj\\",
+        "projectPath": "/home/anton/Documents/Tpe/ResearchMethodslabs/Lab3/Lab3.csproj",
+        "packagesPath": "/home/anton/.nuget/packages/",
+        "outputPath": "/home/anton/Documents/Tpe/ResearchMethodslabs/Lab3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Anton\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/anton/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -53,12 +53,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.104/RuntimeIdentifierGraph.json"
         }
       }
     }

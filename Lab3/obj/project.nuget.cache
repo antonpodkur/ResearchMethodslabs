@@ -1,19 +1,38 @@
 {
   "version": 2,
-  "dgSpecHash": "R1mS0+O8VJpZnLbQ03bIy54wahKdLXOXagjPEnXwomphNVY59kSR4Ll3ujvjxmF1CUsAgyjG9B0CPEo/NZ4QSA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Anton\\Documents\\KPI\\Semestr 2\\MND\\Lab3\\Lab3.csproj",
+  "dgSpecHash": "UPNLpeBK/6wm2fqq/P34B3mw25UWZrJiJM019r1izbcDOUJWQVfKOGFx5IJy1aarXvs7kKDifB/sQHHw9wawBQ==",
+  "success": false,
+  "projectFilePath": "/home/anton/Documents/Tpe/ResearchMethodslabs/Lab3/Lab3.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anton\\.nuget\\packages\\consoletables\\2.4.2\\consoletables.2.4.2.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+    "/home/anton/.nuget/packages/consoletables/2.4.2/consoletables.2.4.2.nupkg.sha512",
+    "/home/anton/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/anton/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/home/anton/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
+    "/home/anton/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/home/anton/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/home/anton/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "/home/anton/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/home/anton/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/home/anton/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU3028",
+      "level": "Error",
+      "message": "Package 'Microsoft.AspNetCore.App.Ref 5.0.0' from source 'https://api.nuget.org/v3/index.json': The author primary signature's timestamp found a chain building issue: UntrustedRoot: self signed certificate in certificate chain",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.AspNetCore.App.Ref 5.0.0' from source 'https://api.nuget.org/v3/index.json': The author primary signature validity period has expired.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU3028",
+      "level": "Error",
+      "message": "Package 'Microsoft.AspNetCore.App.Ref 5.0.0' from source 'https://api.nuget.org/v3/index.json': The repository countersignature's timestamp found a chain building issue: UntrustedRoot: self signed certificate in certificate chain",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    }
+  ]
 }
