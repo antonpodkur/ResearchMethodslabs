@@ -105,6 +105,8 @@ def check_result(b_lst, k):
 
 def student_test(b_lst, number_x=10):
     dispersion_b = sqrt(dispersion_b2)
+    insign_coef = []
+    sign_coef = []
     for column in range(number_x + 1):
         t_practice = 0
         t_theoretical = Experiment.get_student_value(f3, q)
@@ -113,9 +115,12 @@ def student_test(b_lst, number_x=10):
                 t_practice += average_y[row] / N
             else:
                 t_practice += average_y[row] * matrix_pfe[row][column - 1]
+            
         if fabs(t_practice / dispersion_b) < t_theoretical:
+            insign_coef.append(b_lst[column])
             b_lst[column] = 0
-    return b_lst
+        else: sign_coef.append(b_lst[column])
+    return [b_lst, insign_coef, sign_coef]
 
 
 def fisher_test():
@@ -224,7 +229,13 @@ while not adequate:
             m += 1
 
     dispersion_b2 = sum(dispersion_y) / (N * N * m)
-    student_lst = list(student_test(beta))
+    student_lst = list(student_test(beta)[0])
+    sign_coefs = list(student_test(beta)[2])
+
+    if(len(sign_coefs) == 3): 
+        print('number of significant coefficients = 3 - the model is not adequate')
+        adequate = True # True is set to exit from the main loop, because it works until adequate is not True
+
     print("The regression equation with the Student's test")
     print("{:.3f} + {:.3f} * X1 + {:.3f} * X2 + {:.3f} * X3 + {:.3f} * Х1X2 + {:.3f} * Х1X3 + {:.3f} * Х2X3"
           "+ {:.3f} * Х1Х2X3 + {:.3f} * X11^2 + {:.3f} * X22^2 + {:.3f} * X33^2 = ŷ\n\tChecking"
