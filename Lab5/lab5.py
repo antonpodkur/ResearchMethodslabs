@@ -197,6 +197,12 @@ def verify(X, Y, B, n, m):
     final_k = [B[i] for i in range(len(ts)) if ts[i] in res]
     print('\nThe coefficients {} are statistically insignificant, so we exclude them from the equation.'.format(
         [round(i, 3) for i in B if i not in final_k]))
+    
+    insignificant_coefs = [round(i, 3) for i in B if i not in final_k]
+
+    if (len(final_k) > len(insignificant_coefs)):
+        print('Number of significant coefficients > not significant - the system is not adequate')
+        return
 
     y_new = []
     for j in range(n):
