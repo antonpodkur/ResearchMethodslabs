@@ -35,9 +35,13 @@ class MainActivity : AppCompatActivity() {
                         x += 1
                         iterations++
                     }
-                    val y = Math.sqrt((x * x - number).toDouble()).toInt()
-                    text.text = (x - y).toString() + "*" + (x + y)
-                    iterText.text = "Iterations needed: " + iterations
+                    if(iterations < 100){
+                        val y = Math.sqrt((x * x - number).toDouble()).toInt()
+                        text.text = (x - y).toString() + "*" + (x + y)
+                        iterText.text = "Iterations needed: " + iterations
+                    } else{
+                        text.text = "Error!"
+                    }
                 }
             } catch (e: Exception) {
                 text.text = "Error!"
